@@ -1,0 +1,14 @@
+{
+  "name": "voya-travel",
+  "version": "1.0.0",
+  "description": "MERN Stack Travel Booking Platform",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
